@@ -30,7 +30,7 @@ You point the CNAME (the one we are using at .github/workflows/ci.yml) to your g
 
 ### Enable GitHub Pages
 
-After the first push, a branch with the name of `gh-pages` now we do the following
+After the first push, a branch with the name of `gh-pages` will be created, now we do the following
 
 ![gh-pages](assets/gh-pages.png)
 
