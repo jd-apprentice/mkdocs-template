@@ -4,6 +4,8 @@
 
 Template to startup a documentation site with mkdocs
 
+![sample](assets/sample.png)
+
 ## Contains
 
 - base setup
@@ -28,12 +30,18 @@ In case you are using a custom domain you must create the CNAME in your DNS reso
 
 You point the CNAME (the one we are using at .github/workflows/ci.yml) to your github.io page which is normally `<username>.github.io`
 
+### Enable GitHub Pages
+
+After the first push, a branch with the name of `gh-pages` now we do the following
+
+![gh-pages](assets/gh-pages.png)
+
 ### Theme
 
 If you don't want to use material theme, change the `theme` in `mkdocs.yml` and `.github/workflows/ci.yml`
 You can read more about it [HERE](https://www.mkdocs.org/user-guide/choosing-your-theme/)
 
-## Usage
+## Workflow
 
 ![idea](assets/idea.png)
 
