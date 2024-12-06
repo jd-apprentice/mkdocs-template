@@ -1,7 +1,5 @@
 # MKDocs Starter
 
-![wallpaper](assets/wallpaper.png)
-
 Template to startup a documentation site with mkdocs
 
 ![sample](assets/sample.png)
